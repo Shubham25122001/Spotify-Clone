@@ -7,16 +7,16 @@ let myProgressBar = document.getElementById('myProgressBar');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Salam-e-Ishq1", filePath: "songs/song1.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq2", filePath: "songs/song2.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq3", filePath: "songs/song3.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ish4", filePath: "songs/song4.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq5", filePath: "songs/song5.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq6", filePath: "songs/song6.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq7", filePath: "songs/song7.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq8", filePath: "songs/song8.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq9", filePath: "songs/song9.mp3", coverpath: "covers/song1.jpg"},
-    {songName: "Salam-e-Ishq10", filePath: "songs/song10.mp3", coverpath: "covers/song1.jpg"},
+    {songName: "Jara Hat ke", filePath: "songs/song1.mp3", coverpath: "covers/img1.jpg"},
+    {songName: "Dhiri dhiri nachna", filePath: "songs/song2.mp3", coverpath: "covers/img2.png"},
+    {songName: "Dol song", filePath: "songs/song3.mp3", coverpath: "covers/img3.jpg"},
+    {songName: "Dol bean song", filePath: "songs/song4.mp3", coverpath: "covers/img4.jpg"},
+    {songName: "Ayi me to ayi Song", filePath: "songs/song5.mp3", coverpath: "covers/img5.jpg"},
+    {songName: "Song music", filePath: "songs/song6.mp3", coverpath: "covers/img6.jpg"},
+    {songName: "play the music", filePath: "songs/song7.mp3", coverpath: "covers/img7.jpg"},
+    {songName: "Dil ka darvaza", filePath: "songs/song8.mp3", coverpath: "covers/img8.jpg"},
+    {songName: "Salman Khan song", filePath: "songs/song9.mp3", coverpath: "covers/img9.jpg"},
+    {songName: "Imran Hasmi song", filePath: "songs/song10.mp3", coverpath: "covers/img10.png"},
 ]  
 
 songItems.forEach((element, i)=>{
